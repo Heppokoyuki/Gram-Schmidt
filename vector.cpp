@@ -68,7 +68,7 @@ heppoko::vector::operator*(const double &rhs) {
     heppoko::vector result(elements);
 
     for(size_t i = 0; i < result.elements.size(); ++i) {
-        result.elements.at(i) /= rhs;
+        result.elements.at(i) *= rhs;
     }
     return result;
 }
