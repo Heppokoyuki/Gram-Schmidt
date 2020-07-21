@@ -19,7 +19,7 @@ int main()
         }
     }
 
-    std::cout << std::endl <<  "Ortholizationed:" << std::endl << std::endl;
+    std::cout << std::endl <<  "orthogonalizationed:" << std::endl << std::endl;
     for(size_t i = 1; i < v.size(); ++i)
         v[i].print();
     return 0;
